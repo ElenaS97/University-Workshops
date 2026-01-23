@@ -4,6 +4,9 @@
 ## Project Overview
 This project implements a **Sequence-to-Sequence (Seq2Seq)** model to translate English phrases into Russian. It demonstrates advanced Natural Language Processing (NLP) techniques by building a character-level Encoder-Decoder architecture from scratch.
 
+## Dataset
+The model was trained on the Russian-English sentence pairs provided by [Tatoeba](https://tatoeba.org/), hosted by ManyThings.org.
+
 ## Model Architectures
 I implemented and compared two Recurrent Neural Network (RNN) approaches:
 1.  **LSTM (Long Short-Term Memory):** Handles long-range dependencies in text.
